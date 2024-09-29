@@ -18,3 +18,4 @@ db = client.get_database("MobaLegends")
 scrims_collection = db.Scrims  # collection: Scrims
 teams_collection = db.Teams  # collection: Teams
 members_collection = db.Members  # collection: Members
+maps_collection = db.Maps  # collection: Maps: maps discord users to their game username
